@@ -1,0 +1,101 @@
+body {
+    padding: 50px;
+    background-image: url('Bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; /* Added to remove default body margin */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 7px 29px 0px rgba(255, 3, 3, 0.2); /* Changed shadow property */
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #070000; /* Set text color to white */
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #333; /* Set text color to a readable color */
+    background-color: #fff; /* Set background color to white for input/select fields */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add space between form items */
+form > * {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left; /* Center align text within the form */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(250, 246, 246, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Set text color to white */
+}
+
+div.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+/* Styling for country code input */
+#contact_code {
+    width: 23%; /* Adjusted width for country code input */
+    margin-right: 5px; /* Adjusted margin for better spacing */
+}
+
+/* Styling for contact number input */
+#contact_number {
+    flex: 1; /* Take remaining space */
+}
+
+
+
+div {
+    text-align: center;
+}
+
+a {
+    color: #03069c; /* Set text color to match the label color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #45a049; /* Set hover color to match button hover color */
+}
+
